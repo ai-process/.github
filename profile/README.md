@@ -24,8 +24,9 @@ git clone https://github.com/ai-process/ktms.git && cd ktms
 OPENAI_API_KEY=sk-... docker compose up -d --build
 
 curl -s http://localhost:8080/v1/chat/completions \
-  -H "Authorization: Bearer ktms_dev_default_key" -H "Content-Type: application/json" \
-  -d '{"model":"auto","messages":[{"role":"user","content":"Say hi in three words."}]}'
+  -H "Authorization: Bearer ktms_dev_default_key" \
+  -H "Content-Type: application/json" \
+  -d '{"model":"auto","messages":[{"role":"user","content":"Say hi"}]}'
 ```
 
 Point any OpenAI SDK at `http://localhost:8080/v1` and KTMS picks the model, falls back when a vendor fails and enforces your limits. See the [architecture guide](https://ai-process.dev/docs/architecture/) to run the whole stack.
