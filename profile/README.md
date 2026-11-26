@@ -13,7 +13,7 @@ We build small, self-hosted services for teams that run LLMs in production: one 
 
 | | Project | What it does |
 |---|---|---|
-| 🔀 | **[Keystone. The Model Switchboard. (KTMS)](https://github.com/ai-process/ktms)** | LLM gateway: encrypted vendor keys, routing by effort with fallbacks, RPM and token budgets, batches, a local GPU node pool. gRPC and OpenAI-compatible HTTP. · [docs](https://ai-process.dev/docs/ktms/) |
+| 🔀 | **[Keystone. The Model Switchboard. (KTMS)](https://github.com/ai-process/ktms)** | LLM gateway: encrypted vendor keys, routing by needs to a model that can do it, no expert spent on simple work, fallbacks, RPM and token budgets, batches, a local GPU node pool. gRPC and OpenAI-compatible HTTP. · [docs](https://ai-process.dev/docs/ktms/) |
 | 📊 | **[light-tokenmeter](https://github.com/ai-process/light-tokenmeter)** | Usage meter: one event per model call, daily summaries by project, user, model or action, and who is greedy vs worthy. · [docs](https://ai-process.dev/docs/light-tokenmeter/) |
 | 🖥️ | **[ktms-admin](https://github.com/ai-process/ktms-admin)** | Web console for both: models, rules, keys, a prompt playground and the spend dashboard. · [docs](https://ai-process.dev/docs/ktms-admin/) |
 
